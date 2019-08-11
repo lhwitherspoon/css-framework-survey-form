@@ -1,3 +1,5 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,6 +30,7 @@
         <form method="GET" action="" id="survey-form">
             <div class="controls-group">
                 <h2>Your information</h2>
+                <p class="instruction">Fields marked with * are required</p>
                 <p>
                     <label for="name" id="name-label">*Name</label>
                     <input type="text" name="name" id="name" placeholder="Your Name" required>
@@ -38,9 +41,8 @@
                 </p>
                 <p>
                     <label for="age" id="number-label">*Age</label>
-                    <input type="text" name="age" min="18" max="120" id="number" placeholder="42" required>
+                    <input type="number" name="age" min="13" max="120" id="number" placeholder="42" required>
                 </p>
-
             </div>
 
             <div class="controls-group">
@@ -90,7 +92,7 @@
         </form>
     </section>
     <footer>
-        * Required<br>
+
         &copy; L H Witherspoon 2019 <br>
     </footer>
 
