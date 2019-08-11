@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example Survey Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="title">CSS Frameworks Survey</h1>
+        <p id="description">Which CSS Frameworks do you like?<br> Which one would you never use? Which ones would
+            you
+            like to try? </p>
+        <!-- <img class="image" src="framework.png" alt=""> -->
+    </header>
+
+
+
+
+    <section>
+        <form method="GET" action="" id="survey-form">
+            <div class="controls-group">
+                <h2>Your information</h2>
+                <p>
+                    <label for="name" id="name-label">*Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </p>
+                <p>
+                    <label for="email" id="email-label">*Email</label>
+                    <input type="email" name="email" id="email" placeholder="you@email.com" required>
+                </p>
+                <p>
+                    <label for="age" id="number-label">*Age</label>
+                    <input type="text" name="age" min="18" max="120" id="number" placeholder="42" required>
+                </p>
+
+            </div>
+
+            <div class="controls-group">
+                <h2>I use CSS Frameworks when.....<h2>
+                        <select name="dropdown" id="dropdown">
+                            <option selected disabled value>Select an option</option>
+                            <option value="hurry">When I'm in a hurry</option>
+                            <option value="demand">When the customer demands I use a particular framework</option>
+
+                            <option value="curious">When I'm curious to see how it will work</option>
+
+                            <option value="always">When do I not use a CSS framework?</option>
+
+                        </select>
+
+            </div>
+            <div class="controls-group">
+                <h2>
+                    Framework I would never use:
+                </h2>
+                <input type="radio" name="never use" id="" value="Bootstrap">Bootstrap<br>
+                <input type="radio" name="never use" id="" value="W3Schools CSS">W3Schools CSS<br>
+                <input type="radio" name="never use" id="" value="Zurb Foundation">Zurb Foundation<br>
+                <input type="radio" name="never use" id="" value="Bulma">Bulma<br>
+                <input type="radio" name="never use" id="" value="Tailwinds">Tailwinds<br>
+            </div>
+
+            <div class="controls-group">
+                <h2>
+                    Frameworks I would like to try:
+                </h2>
+                <input type="checkbox" name="try" value="Bulma" id="">Bulma<br>
+                <input type="checkbox" name="try" id="" value="Bootstrap">Bootstrap<br>
+                <input type="checkbox" name="try" id="" value="Tailwinds">Tailwinds<br>
+                <input type="checkbox" name="try" id="" value="Zurb Foundation">Zurb Foundation<br>
+            </div>
+
+            <div class="controls-group">
+                <label for="textarea" class="label-left-align">
+                    <h2>Comments</h2>
+                </label>
+                <textarea name="comments" id="">Comments</textarea>
+
+            </div>
+            <button type="submit" value="submit" id="submit">Submit</button>
+
+        </form>
+    </section>
+    <footer>
+        * Required<br>
+        &copy; L H Witherspoon 2019 <br>
+    </footer>
+
+</body>
+
+</html>

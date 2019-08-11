@@ -1,0 +1,79 @@
+body {
+
+    font-family: 'Lexend Deca', 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+    /* background-color: rgb(234, 244, 230); */
+    background-image: linear-gradient(rgba(234, 244, 230, 1), rgba(42, 83, 97, 0.25));
+    padding: 3em;
+    color: rgb(207, 65, 65);
+
+}
+
+header {
+    padding: 0 1.75em 0 1em;
+    opacity
+    /* background-image: url(framework.png); */
+}
+
+form {
+    /* border: 1px solid gray; */
+    background-color: white;
+    padding: 1em;
+    color: rgb(42, 83, 97);
+    border-radius: 1%;
+}
+
+label {
+    display: inline-block;
+    /* float: left; */
+    text-align: left;
+    width: 5em;
+    padding: 0.25em;
+}
+
+input {
+    font-family: 'Lexend Deca', 'Courier New', Courier, monospace
+}
+
+select {
+    max-width: 100%;
+    font-family: 'Lexend Deca', 'Courier New', Courier, monospace
+}
+
+.controls-group {
+    padding: 1em;
+    border-bottom: 5px dotted rgb(207, 65, 65);
+}
+
+.label-left-align {
+    display: block;
+    text-align: left;
+}
+
+textarea {
+    /* display: inline-block; */
+    /* float: left; */
+    width: 80%;
+    height: 100px;
+    padding: 1em;
+    font-family: 'Lexend Deca', 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 1em;
+
+    margin: 2em 0 2em 1em;
+    background-image: linear-gradient(rgba(234, 244, 230, 1), rgba(234, 244, 230, 0));
+    border: 2px solid rgba(42, 83, 97, 0.5);
+    /* color: rgb(42, 83, 97); */
+    font-weight: bold;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    padding: 1em;
+
+}
