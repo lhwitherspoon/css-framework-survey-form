@@ -1,2 +1,2 @@
-# fcc-survey-form
-This project is done as part of the Free Code Camp responsive website certificate. 
+# CSS-framework-survey-form
+This project was done as part of the Free Code Camp responsive website certificate. 
